@@ -1,0 +1,56 @@
+{
+  "chargingModes": [
+    {
+      "chargingConnections": [
+        {
+          "facilityType": "Charge_380_to_480V_3_Phase_at_32A",
+          "plugType": "IEC_62196_Type_2_Outlet"
+        }
+      ],
+      "chargingCurve": [
+        {
+          "chargeInkWh": 6,
+          "timeToChargeInSeconds": 360
+        },
+        {
+          "chargeInkWh": 12,
+          "timeToChargeInSeconds": 720
+        },
+        {
+          "chargeInkWh": 28,
+          "timeToChargeInSeconds": 1944
+        },
+        {
+          "chargeInkWh": 40,
+          "timeToChargeInSeconds": 4680
+        }
+      ]
+    },
+    {
+      "chargingConnections": [
+        {
+          "facilityType": "Charge_200_to_240V_1_Phase_at_10A",
+          "plugType": "Standard_Household_Country_Specific"
+        }
+      ],
+      "chargingCurve": [
+        {
+          "chargeInkWh": 6,
+          "timeToChargeInSeconds": 15624
+        },
+        {
+          "chargeInkWh": 12,
+          "timeToChargeInSeconds": 32652
+        },
+        {
+          "chargeInkWh": 28,
+          "timeToChargeInSeconds": 76248
+        },
+        {
+          "chargeInkWh": 40,
+          "timeToChargeInSeconds": 109080
+        }
+      ]
+    }
+  ]
+}
